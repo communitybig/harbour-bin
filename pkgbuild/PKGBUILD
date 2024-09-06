@@ -1,7 +1,7 @@
-# Maintainer: Tales A. Mendonça <talesam@gmail.com>
+# Maintainer: Vilmar Catafesta <vcatafesta@gmail.com>
 
-pkgname=pkgbuild-template
-pkgdesc="Package template for Communitybig"
+pkgname=comm-harbour
+pkgdesc="Harbour is the open/free software implementation of a cross-platform, multi-threading, object-oriented, scriptable programming language"
 # Uncomment and edit the following lines as needed
 #depends=('')
 #makedepends=('')
@@ -9,9 +9,9 @@ pkgdesc="Package template for Communitybig"
 #conflicts=('')
 #provides=('')
 #replaces=('')
-pkgver=$(date +%y.%m.%d)
-pkgrel=$(date +%H%M)
-arch=('any')
+pkgver=3.4
+pkgrel=1
+arch=('x86_64')
 license=('MIT')
 url="https://github.com/communitybig/${pkgname}"
 source=("git+${url}.git")
