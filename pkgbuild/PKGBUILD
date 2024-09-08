@@ -1,14 +1,14 @@
 # Maintainer: Vilmar Catafesta <vcatafesta@gmail.com>
 
-pkgname=comm-harbour
+pkgname=comm-harbour-bin
 pkgdesc="Harbour is the open/free software implementation of a cross-platform, multi-threading, object-oriented, scriptable programming language"
 # Uncomment and edit the following lines as needed
 #depends=('')
 #makedepends=('')
 #optdepends=('')
-#conflicts=('')
-#provides=('')
-#replaces=('')
+conflicts=('biglinux-harbour')
+provides=('biglinux-harbour')
+replaces=('biglinux-harbour')
 pkgver=3.4
 pkgrel=1
 arch=('x86_64')
