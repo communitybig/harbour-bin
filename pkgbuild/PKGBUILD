@@ -1,6 +1,6 @@
 # Maintainer: Vilmar Catafesta <vcatafesta@gmail.com>
 
-pkgname=comm-harbour-bin
+pkgname=harbour-bin
 pkgdesc="Harbour is the open/free software implementation of a cross-platform, multi-threading, object-oriented, scriptable programming language"
 # Uncomment and edit the following lines as needed
 #depends=('')
